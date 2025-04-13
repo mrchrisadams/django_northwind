@@ -1,0 +1,10 @@
+[project]
+name = "django-northwind"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["django>=5.2"]
+
+[project.optional-dependencies]
+dev = ["ipdb>=0.13.13", "marimo[sql]>=0.12.8", "django-upgrade>=1.24.0"]
